@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/fangkongzhishi/list",
+    "pages/fangkongzhishi/add-or-update",
+    "pages/fangkongzhishi/detail",
+    "pages/yiyuanxinxi/list",
+    "pages/yiyuanxinxi/add-or-update",
+    "pages/yiyuanxinxi/detail",
+    "pages/jiankangshangbao/list",
+    "pages/jiankangshangbao/add-or-update",
+    "pages/jiankangshangbao/detail",
+    "pages/yiliaojuanzeng/list",
+    "pages/yiliaojuanzeng/add-or-update",
+    "pages/yiliaojuanzeng/detail",
+    "pages/juanzengxinxi/list",
+    "pages/juanzengxinxi/add-or-update",
+    "pages/juanzengxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussfangkongzhishi/list",
+    "pages/discussfangkongzhishi/add-or-update",
+    "pages/discussfangkongzhishi/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "传染病防控宣传系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#339999",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fangkongzhishi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "防控知识"
+      },
+      {
+        "pagePath": "pages/yiyuanxinxi/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "医院信息"
+      },
+      {
+        "pagePath": "pages/yiliaojuanzeng/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "医疗捐赠"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
